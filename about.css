@@ -1,0 +1,162 @@
+.banner{
+	background-color: darkblue;
+	padding: 12px 15px;
+	color: white;
+font-weight: bold;
+font-size: 25px;
+}
+body{
+	margin: 0;
+	background-color: beige;
+}
+.nav-bar{
+	background-color:skyblue;
+	padding: 12px;
+}
+.nav-list{
+	list-style: none;
+}
+.nav-item{
+	padding: 25px 30px;
+	display: inline;
+
+}
+.nav-link:hover{
+	color: black;
+	font-weight: bold;
+}
+.nav-link{
+	text-decoration: none;
+	color: sage green;
+}
+.nav-link.active{
+	background-color: lavenderblush;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+
+	.last{
+		text-align: center;
+		background-color: teal;
+		height: 100px;
+		padding: 12px;
+	}
+	.last .nnn{
+		color: bold;
+	}
+	
+	.main{
+		height: 600px;
+	}
+	
+	.r{
+		margin-left: 2%;
+		width: 500px;
+		height: 200px;
+		padding: 12px 17px;
+		color: black;
+		box-shadow: 4px 4px 20px rgb(0, 0, 0 , 0.4);
+		border-radius: 10px;
+		
+	}
+	.s{
+		width: 500px;
+		height: 200px;
+		margin-left: 2%;
+		padding: 12px 17px;
+		color: black;
+		box-shadow: 4px 4px 20px rgb(0, 0, 0 , 0.4);
+		border-radius: 10px;
+	}
+		
+	
+	.t{
+         width: 500px;
+		height: 200px;
+		margin-left: 50%;
+        margin-top: -40%;
+        padding: 12px 17px;
+        color: black;
+		box-shadow: 4px 4px 20px rgb(0, 0, 0 , 0.4);
+		border-radius: 10px;
+	}
+	.u{
+         width: 500px;
+		height: 200px;
+		margin-left: 50%;
+		padding: 12px 17px;
+		color: black;
+		box-shadow: 4px 4px 20px rgb(0, 0, 0 , 0.4);
+		border-radius: 10px;
+	}
+	}
+	.content{
+		
+		width: 400px;
+		height: 300px;
+		
+		margin-left: 30%;
+	}
+	b{
+		font-size: 20px;
+	}
+	span{
+		font-weight: bold;
+	}
+	.topic{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.top-bar{
+		width: 100%;
+		padding: 10px;
+		background-color: #f8f9fa;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		
+	}
+	.search-container{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 100%;
+		
+	}
+	.search-bar{
+		flex: 1;
+		padding: 10px;
+		font-size: 16px;
+		border: 1px solid #ccc;
+	    border-radius: 20px;
+		min-width:200px;
+
+	}
+	.search-button{
+		padding: 10px 20px;
+		font-size: 16px;
+		background-color: #0056b3;
+		color: black;
+		border: none;
+		cursor: pointer;
+		font-weight: bold;
+		border-radius: 10px;
+	}
+	.search-button:hover{
+		background-color: lightblue;
+
+	}
+	@media(max-width: 600px){
+		
+		.search-container{
+			flex-direction: column;
+			
+		}
+		.search-bar,
+		.search-button{
+			width: 100%;
+			
+			margin:  5px 0;
+
+		}
+	}
